@@ -1,0 +1,56 @@
+.hot-deals {
+  padding: 40px 20px;
+  background-color: #eefbff;
+}
+
+.hot-deals h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.deals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.deal-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.deal-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: fit;
+}
+
+.deal-content {
+  padding: 20px;
+}
+
+.deal-content h3 {
+  font-size: 18px;
+  color: #0e6b89;
+  margin-bottom: 10px;
+}
+
+.deal-content p {
+  font-size: 15px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.learn-btn {
+  background-color: #0e6b89;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}

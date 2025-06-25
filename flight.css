@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;;
+  background-color: #c6f1ce;
+}
+.background {
+  background-image: url(Assets/Images/plane.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 40px 15px;
+  box-sizing: border-box;
+}
+
+.booking-box {
+  background: #fff;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+  display: flex;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: #0e6b89;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.tabs button:not(.active-tab) {
+  background: #126c89b3;
+}
+
+.trip-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.green {
+  background: #c6f1ce;
+  color: #127a2b;
+}
+
+.blue {
+  background: #dce7ff;
+  color: #2458d0;
+}
+
+.gray {
+  background: #e3e3ff;
+  color: #4242b6;
+}
+
+.info {
+  margin-left: auto;
+  font-weight: 500;
+  color: #0e4d67;
+}
+
+.flight-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.input-box {
+  flex: 1;
+  min-width: 220px;
+  position: relative;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+  border-radius: 6px;
+  border: 1px solid #369;
+  font-size: 14px;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 38px;
+  color: #555;
+}
+
+.submit {
+  text-align: center;
+}
+
+.submit button {
+  background: #0e6b89;
+  color: white;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}

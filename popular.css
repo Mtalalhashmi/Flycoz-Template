@@ -1,0 +1,43 @@
+.popular-destinations {
+  padding: 40px 20px;
+  background-color: #f0fbff;
+}
+
+.popular-destinations h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.destination-card {
+  height: 200px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.destination-card .text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px black;
+}
+
+.destination-card h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.destination-card p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}

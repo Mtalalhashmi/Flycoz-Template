@@ -1,0 +1,56 @@
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, #f26522, #1e8ab3);
+    padding: 40px 20px;
+    color: #000;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    max-width: 300px;
+    margin: 20px;
+}
+
+.info-card img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.info-card p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f2faff;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    text-align: center;
+    margin: 20px;
+    color: #121212;
+}
+
+.stat-card i {
+    font-size: 30px;
+    color: #3949ab;
+    margin-bottom: 10px;
+}
+
+.stat-card h2 {
+    font-size: 28px;
+    margin: 10px 0 5px;
+}
+
+.stat-card p {
+    font-size: 16px;
+}
